@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    color: #fff;
+    height: 100%;
+    background-image: url("./images/background.jpg");
+    background-size: cover;                      
+    background-repeat: no-repeat;
+}
+
+.box{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row{
+    padding: 30px;
+}
+
+@media (max-width: 800px) {
+    .box{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+li{
+    text-decoration: dashed;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:link,
+a:visited{
+    color: #fff;
+}
+
+a:hover{
+    color: wheat;
+}
+
+.btn-start {
+    background-color: #fa923f;
+    color: white;
+    border: 2px solid #fa923f;
+    border-radius: 15px;
+    margin: 15px auto;
+    display: block;
+    width: 10rem;
+    height: 2rem;
+}
+
+.btn-gift {
+    background-color: #fa923f;
+    color: white;
+    border: 2px solid #fa923f;
+    border-radius: 15px;
+    margin: 15px auto;
+    display: block;
+    width: 12rem;
+    height: 2rem;
+}
+
+.container {
+    width: 417px;
+    height: 626px;
+    border: 5px black;
+    margin: 15px auto;
+    background-image: url("./images/calendar.avif");
+    box-shadow: 6px 6px 20px gray;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "door9 door6 door11 door7"
+        "door3 door20 door16 door2"
+        "door14 door12 door19 door15"
+        "door22 door1 door5 door23"
+        "door17 door10 door24 door21"
+        "door8 door18 door4 door13";
+}
+
+.image {
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+
+#xmas{
+    margin: auto;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+    padding: 10px;
+    border: 1px dashed white;
+    transition: opacity 2.5s;
+}

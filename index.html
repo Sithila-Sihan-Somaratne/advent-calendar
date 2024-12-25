@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Advent Calendar</title>
+</head>
+
+<body>
+  <br>
+  <h1 align="center">HAPPY HOLIDAYS!</h1>
+  <p align="center">Hello, Malli. Please click the orange button to view the advent calendar.</p>
+  <div class="box">
+      <!-- <div class="row" data-aos="slide-left">
+      <h2>HAVE SOME FUN!</h2><br>
+      <h4>See below links: </h4>
+      <ul>
+        <li><a target="_blank" href="https://www.starfall.com/h/holiday/turkey/?sn=main">Turkey</a></li>
+        <li><a target="_blank" href="https://www.starfall.com/h/holiday/gingerbread/?sn=main">Gingerbread</a></li>
+        <li><a target="_blank" href="https://www.starfall.com/h/holiday/snowman/?sn=main">Build a snowman</a></li>
+        <li><a target="_blank" href="https://www.starfall.com/h/holiday/calendar/?sn=main">Let's make a calendar</a></li>
+      </ul>
+      <h4>Listen: </h4>
+      <ul>
+        <li><a target="_blank" href="https://learnenglishkids.britishcouncil.org/listen-watch/songs/leaves-trees">Leaves tree</a></li>
+        <li><a target="_blank" href="https://learnenglishkids.britishcouncil.org/listen-watch/songs/turkey-trouble">Turkey trouble</a></li>
+        <li><a target="_blank" href="https://learnenglishkids.britishcouncil.org/listen-watch/songs/busy-elf">Busy elf</a></li>
+        <li><a target="_blank" href="https://learnenglishkids.britishcouncil.org/listen-watch/songs/santa-santa-high-sky">Santa Santa high street</a></li>
+        <li><a target="_blank" href="https://learnenglishkids.britishcouncil.org/listen-watch/songs/time-another-year">Time to another year (listen to it on the 31st of December)</a></li>
+      </ul>
+      <h4>Watch: </h4>
+      <ul>
+        <li><a target="_blank" href="https://learnenglishkids.britishcouncil.org/listen-watch/short-stories/snowman">Snowman</a></li>
+        <li><a target="_blank" href="https://learnenglishkids.britishcouncil.org/listen-watch/short-stories/my-favourite-day-christmas">My favourite day: Christmas</a></li>
+        <li><a target="_blank" href="https://learnenglishkids.britishcouncil.org/listen-watch/short-stories/santas-little-helper">Santa's little helper</a></li>
+      </ul>
+      <h4>Read: </h4>
+      <ul>
+        <li><a target="_blank" href="https://blog.deascuola.it/uploads/2022/12/A-Christmas-Carol-INTERNI-9_20-1-copia.pdf">A Christmas Carol</a></li>
+      </ul>
+    </div> -->
+    <div class="row">
+      <div data-aos="zoom-in" data-aos-duration="2000">
+        <button class="btn-start">Advent Calendar</button>
+        <div class="container"></div>
+        <br>
+        <p style="text-align: center;" id="list-num"></p><br>
+        <p style="text-align: center;">To Ronin Malli, from Sithila Ayya</p>
+      </div>
+    </div>
+    <div id="xmas" class="row" data-aos="zoom-in" style="text-align: center; ">
+      <h2 id="subtitle">ANOTHER SMALL SURPRISE...FOR XMAS DAY!</h2> <br><br>
+      <div id="initial-view">
+        <p id="countdown">So, try to be patient... because there are days to see it</p><br>
+      </div>
+      <div id="surprise" data-aos="fade-in"></div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+
+</html>
